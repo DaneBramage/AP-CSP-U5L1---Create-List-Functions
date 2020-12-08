@@ -11,10 +11,10 @@ function removeItem(listName, index) {
 }
 
 var bList = ["to", 5, "po"];
-var title = document.getElementById("titleText");
-title.innerHTML = "Hello!";
+var title = document.getElementById("title01");
 appendItem(bList, bList[2] + "ta" + bList[0]); 
 insertItem(bList, 2-1, "go");
 removeItem(bList, 2);
 console.log(bList);
+title.innerHTML = bList;
 //document.getElementById("titleText").innerHTML = "New text!";
