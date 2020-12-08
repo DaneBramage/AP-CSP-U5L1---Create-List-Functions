@@ -17,4 +17,4 @@ insertItem(bList, 2-1, "go");
 removeItem(bList, 2);
 console.log(bList);
 title.innerHTML = bList;
-//document.getElementById("titleText").innerHTML = "New text!";
+document.getElementById("title01").innerHTML = "HIJACKED!!!<br/>(element accessed without variable)";
