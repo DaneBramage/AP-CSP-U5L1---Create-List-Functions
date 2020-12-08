@@ -18,3 +18,6 @@ removeItem(bList, 2);
 console.log(bList);
 title.innerHTML = bList;
 document.getElementById("title01").innerHTML = "HIJACKED!!!<br/>(element accessed without variable)";
+document.write("Hello, this is direct to the HTML output stream");
+document.write("<br/>")
+document.write(Date());
